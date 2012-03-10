@@ -1,0 +1,2 @@
+Dep atd git "git://github.com/MyLifeLabs/atd.git"
+  Requires easy-format,menhir

@@ -1,0 +1,3 @@
+Dep aifad remote "http://hg.ocaml.info/release/aifad/archive/release-1.1.0.tar.gz"
+   Requires res,pcre,cfg
+
