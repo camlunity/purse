@@ -1,0 +1,2 @@
+dep lambda-term remote "http://forge.ocamlcore.org/frs/download.php/673/lambda-term-1.1.tar.gz"
+  requires zed,lwt

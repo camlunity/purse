@@ -1,0 +1,2 @@
+dep posix-resource remote "http://oasis.ocamlcore.org/dev/dist/ocaml-posix-resource/0.0.1/ocaml-posix-resource-0.0.1.tar.gz"
+  requires ounit

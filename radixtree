@@ -1,0 +1,2 @@
+dep radixtree remote "http://oasis.ocamlcore.org/dev/dist/ocaml-radixtree/0.0.1/ocaml-radixtree-0.0.1.tar.gz:
+  requires ounit,benchmark
