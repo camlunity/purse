@@ -1,3 +1,3 @@
 Dep core hg "https://bitbucket.org/yminsky/ocaml-core"
 	Patch ".patches/core-makefile.patch"
-	Requires bin-prot,fieldslib,pa_ounit,pa_pipebang
+	Requires bin-prot,fieldslib,pa_ounit,pa_pipebang,variantslib,sexplib

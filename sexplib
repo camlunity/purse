@@ -1,0 +1,3 @@
+Dep sexplib hg "https://bitbucket.org/yminsky/ocaml-core"
+	Patch ".patches/sexplib-makefile.patch"
+	Requires type-conv-js
