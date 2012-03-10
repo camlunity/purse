@@ -1,0 +1,3 @@
+dep archieve remote "http://forge.ocamlcore.org/frs/download.php/658/ocaml-archive-2.8.4+1.tar.gz"
+   requires ounit,lwt,fileutils,extlib
+

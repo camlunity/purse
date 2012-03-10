@@ -1,0 +1,3 @@
+Dep archimedes remote "http://forge.ocamlcore.org/frs/download.php/817/archimedes-0.4.13.tar.gz"
+   Requires cairo
+
