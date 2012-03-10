@@ -1,1 +1,2 @@
 Dep ocamlgraph remote "http://ocamlgraph.lri.fr/download/ocamlgraph-1.8.1.tar.gz"
+    Patch ".patches/ocamlgraph-makefile.patch"

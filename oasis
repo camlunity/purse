@@ -1,0 +1,3 @@
+Dep oasis remote "http://forge.ocamlcore.org/frs/download.php/501/oasis-0.2.0.tar.gz"
+    Requires extlib, fileutils, ocamlgraph, ocamlify, odn, pcre, ounit, expect
+    Patch ".patches/oasis-ounit-1.1.1.patch"
