@@ -1,0 +1,3 @@
+Dep core hg "https://bitbucket.org/yminsky/ocaml-core"
+	Patch ".patches/core-makefile.patch"
+
