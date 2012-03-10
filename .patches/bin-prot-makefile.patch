@@ -3,7 +3,7 @@ diff -r d04fcd86564f Makefile
 +++ b/Makefile	Sat Mar 10 22:00:24 2012 +0400
 @@ -0,0 +1,5 @@
 +all:
-+	cd base/core && ./oasis.sh && ./configure && make
++	cd base/bin-prot && ./oasis.sh && ./configure && make
 +install:
-+	cd base/core && make install
++	cd base/bin-prot && make install
 +
