@@ -1,0 +1,9 @@
+diff -r d04fcd86564f Makefile
+--- /dev/null	Thu Jan 01 00:00:00 1970 +0000
++++ b/Makefile	Sat Mar 10 22:00:24 2012 +0400
+@@ -0,0 +1,5 @@
++all:
++	cd base/variantslib && ./oasis.sh && ./configure && make
++install:
++	cd base/variantslib && make install
++

@@ -1,3 +1,4 @@
 Dep bin-prot hg "https://bitbucket.org/yminsky/ocaml-core"
 	Patch ".patches/bin-prot-makefile.patch"
+	Requires type-conv-js
 

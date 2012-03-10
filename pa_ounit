@@ -1,0 +1,2 @@
+Dep pa_ounit hg "https://bitbucket.org/yminsky/ocaml-core"
+	Patch ".patches/pa_ounit-makefile.patch"

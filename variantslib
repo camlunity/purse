@@ -1,0 +1,2 @@
+Dep variantslib hg "https://bitbucket.org/yminsky/ocaml-core"
+	Patch ".patches/variantslib-makefile.patch"

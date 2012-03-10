@@ -1,0 +1,3 @@
+Dep fieldslib hg "https://bitbucket.org/yminsky/ocaml-core"
+	Patch ".patches/fieldslib-makefile.patch"
+	Requires type-conv-js
