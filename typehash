@@ -1,0 +1,3 @@
+Dep typehash hg "https://bitbucket.org/yminsky/ocaml-core"
+	Patch "patches/typehash-makefile.patch"
+	Requires type-conv-js
