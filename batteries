@@ -1,2 +1,2 @@
-Dep batteries get "git://github.com/ocaml-batteries-team/batteries-included.git"
-
+Dep batteries remote "http://forge.ocamlcore.org/frs/download.php/684/batteries-1.4.1.tar.gz"
+    Requires camomile, oUnit

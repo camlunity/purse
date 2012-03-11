@@ -1,0 +1,2 @@
+Dep camomile remote "https://github.com/downloads/yoriyuki/camomile/camomile-0.8.4.tar.bz2"
+    Flag "--prefix=$BRB_DEPDIR"
