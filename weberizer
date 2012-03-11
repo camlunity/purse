@@ -1,0 +1,2 @@
+dep weberizer remote "https://github.com/Chris00/weberizer.git"
+  requires ocamlnet

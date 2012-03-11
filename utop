@@ -1,0 +1,2 @@
+dep utop remote "http://forge.ocamlcore.org/frs/download.php/674/utop-1.1.tar.gz"
+  requires lwt,labmda-term

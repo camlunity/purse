@@ -1,0 +1,2 @@
+dep zed remote "http://forge.ocamlcore.org/frs/download.php/672/zed-1.1.tar.gz"
+  requires camomile
