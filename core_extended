@@ -1,5 +1,5 @@
 Dep core_extended hg "https://bitbucket.org/yminsky/ocaml-core"
-	Patch ".patches/core_extended-makefile.patch"
+	Patch "patches/core_extended-makefile.patch"
 	Requires core,pcre,res
 #not tested yet!!!
 

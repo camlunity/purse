@@ -1,2 +1,2 @@
 Dep pa_pipebang hg "https://bitbucket.org/yminsky/ocaml-core"
-	Patch ".patches/pa_pipebang-makefile.patch"
+	Patch "patches/pa_pipebang-makefile.patch"
