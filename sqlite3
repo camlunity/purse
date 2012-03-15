@@ -1,1 +1,2 @@
 Dep sqlite3 remote "http://hg.ocaml.info/release/ocaml-sqlite3/archive/release-1.6.1.tar.gz"
+  Flag "-bindir $bin_dir"
