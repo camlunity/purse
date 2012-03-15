@@ -1,0 +1,3 @@
+dep net remote "http://download.camlcity.org/download/ocamlnet-3.5.1.tar.gz"
+  Build "make all opt"
+  requires pcre

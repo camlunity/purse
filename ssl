@@ -1,0 +1,2 @@
+dep ssl remote-tar-gz "http://sourceforge.net/projects/savonet/files/ocaml-ssl/0.4.6/ocaml-ssl-0.4.6.tar.gz/download"
+        #git "https://github.com/savonet/ocaml-ssl.git"
