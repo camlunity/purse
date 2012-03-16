@@ -1,3 +1,3 @@
 dep react remote "http://erratique.ch/software/react/releases/react-0.9.2.tbz"
   Build "sh build"
-  Install "env INSTALLDIR=$BRB_DEPDIR sh build install"
+  Install "env INSTALLDIR=$lib_dir sh build install"
