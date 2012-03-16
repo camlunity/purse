@@ -1,3 +1,3 @@
 Dep easy-format git "https://github.com/mjambon/easy-format"
-  Install "make BINDIR=$bin_dir install"
+  Install "$MAKE BINDIR=$bin_dir install"
 

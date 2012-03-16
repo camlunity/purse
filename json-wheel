@@ -1,2 +1,2 @@
 dep json-wheel remote "http://mjambon.com/json-wheel.tar.gz"
-  Install "env PREFIX=$dep_dir make install"
+  Install "env PREFIX=$dep_dir $MAKE install"

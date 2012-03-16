@@ -1,3 +1,3 @@
 dep menhir remote "http://cristal.inria.fr/~fpottier/menhir/menhir-20120123.tar.gz"
-  Install "make PREFIX=$dep_dir install"
-  Build   "make PREFIX=$dep_dir"
+  Install "$MAKE PREFIX=$dep_dir install"
+  Build   "$MAKE PREFIX=$dep_dir"
