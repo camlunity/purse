@@ -1,2 +1,4 @@
 Dep biniou remote "http://martin.jambon.free.fr/biniou.tar.gz"
+  Install "make BINDIR=$bin_dir install"
+
 

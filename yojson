@@ -1,0 +1,3 @@
+dep yojson remote "http://mjambon.com/yojson.tar.gz"
+  requires easy-format, biniou, cppo
+

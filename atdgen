@@ -1,0 +1,2 @@
+dep atdgen remote "http://oss.wink.com/atdgen/atdgen-1.2.2.tar.gz"
+  requires biniou, menhir, cppo, yojson, atd

@@ -1,2 +1,4 @@
 Dep atd git "git://github.com/MyLifeLabs/atd.git"
   Requires easy-format,menhir
+  Install "make BINDIR=$bin_dir install"
+
