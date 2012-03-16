@@ -1,0 +1,2 @@
+dep images-ermine git "https://github.com/ermine/camlimages"
+ requires lablgtk
