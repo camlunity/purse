@@ -1,1 +1,5 @@
 dep lablgtk remote "http://forge.ocamlcore.org/frs/download.php/561/lablgtk-2.14.2.tar.gz"
+  Flag "--prefix=$dep_dir"
+  Flag "--exec-prefix=$dep_dir"
+  Flag "--with-libdir=$lib_dir"
+# the problem. it seems that this version of labgtk doesn't instell META
