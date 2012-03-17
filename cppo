@@ -1,2 +1,2 @@
 Dep cppo remote "http://martin.jambon.free.fr/cppo-0.9.2.tar.gz"
-  Install "env PREFIX=$dep_dir make install"
+  Install "env PREFIX=$dep_dir $MAKE install"

@@ -1,4 +1,4 @@
 dep net remote "http://download.camlcity.org/download/ocamlnet-3.5.1.tar.gz"
-  Build "make all opt"
+  Build "$MAKE all opt"
   Flag "-bindir $bin_dir"
   requires pcre

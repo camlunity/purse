@@ -1,1 +1,2 @@
 dep hevea remote "http://hevea.inria.fr/distri/hevea-1.10.tar.gz"
+  Build "$(MAKE) PREFIX=$dep_dir BINDIR=$bin_dir LIBDIR=$lib_dir LATEXLIBDIR=$lib_dir/hevea all"
