@@ -1,3 +1,8 @@
 Dep sqlite3 remote "http://hg.ocaml.info/release/ocaml-sqlite3/archive/release-1.6.1.tar.gz"
   Flag "-bindir $bin_dir"
   Flag "--with-sqlite3" 
+  if (os_type(FreeBSD))
+    Flag "--with-sqlite3=/usr/local"
+    Patch "patches/sqlite3-freebsd-configure.patch"
+  end
+
