@@ -1,3 +1,0 @@
-dep ocsigen remote "http://ocsigen.org/download/ocsigen-bundle-2.0.2c.tar.gz"
-  Requires calendar, cryptokit, net, pcre, react,ssl, sqlite3, text
-  Flag "--prefix $dep_dir"
