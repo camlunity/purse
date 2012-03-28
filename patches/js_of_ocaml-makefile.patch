@@ -1,0 +1,12 @@
+--- old-js_of_ocaml/Makefile.conf	2012-03-28 17:41:46.293641319 +0400
++++ new-js_of_ocaml/Makefile.conf	2012-03-28 17:41:46.293641319 +0400
+@@ -1,7 +1,7 @@
+ 
+ # Where binaries are installed:
+-BINDIR := /usr/local/bin
+-
++#BINDIR := /usr/local/bin
++#commented. We will set this option in command line
+ ####
+ 
+ LIBRARY  := js_of_ocaml

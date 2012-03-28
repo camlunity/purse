@@ -1,0 +1,5 @@
+dep js_of_ocaml remote "http://ocsigen.org/download/js_of_ocaml-1.1.1.tar.gz"
+  Build "make BINDIR=$bin_dir all"
+  Install "make BINDIR=$bin_dir install"
+  Requires lwt
+  Patch "patches/js_of_ocaml-makefile.patch"
