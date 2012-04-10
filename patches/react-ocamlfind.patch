@@ -1,0 +1,23 @@
+diff --git a/build b/build
+old mode 100644
+new mode 100755
+index cd2225d..e4b6147
+--- a/build
++++ b/build
+@@ -40,13 +40,12 @@ action ()
+       ocb $PROJECTNAME.cmi
+       $OCAMLDOC -html -I src -colorize-code -d $DOCDIR src/$PROJECTNAME.mli ;;
+     install-byte)
+-      action module-byte
+-      $MKDIR -p $INSTALLDIR
+-      $CP $F.ml $F.mli $F.cmi $F.cmo src/META $INSTALLDIR ;;
++      action module-byte ;;
+     install)
++      $MKDIR -p $INSTALLDIR
+       action install-byte
+       action module-native
+-      $CP $F.cmx $F.o $INSTALLDIR ;;
++      ocamlfind install react $F.ml $F.mli $F.cmi $F.cmo src/META $F.cmx $F.o ;;
+     install-plugin)
+       action install
+       action module-plugin

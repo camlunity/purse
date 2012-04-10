@@ -1,3 +1,4 @@
 dep react remote "http://erratique.ch/software/react/releases/react-0.9.2.tbz"
+  patch "patches/react-ocamlfind.patch"
   Build "sh build"
   Install "env INSTALLDIR=$lib_dir sh build install"
